@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <h1>Census</h1>
+    </header>
+    <form>
+        <P>Please fill in this form</P>
+        First Name: <input name="fname"/><br>
+        Surname: <input type="text" name="lname"/><br><br>
+        Address Line 1: <input name="addressl1"/><br>
+        Address Line 2: <input name="addressl1"/><br>
+        Town/City: <input name="town"/><br>
+        Postcode: <input name="postcode"/><br><br>
+        Birthday: <input type="date" id="birthday" name="birthday"><br><br>
+        Age: <input type="number" name="num" min="0" max="150"><br><br>
+        Marital Status:
+        <select name="status" id="status">
+            <option value="Married">Married</option>
+            <option value="Single">Single</option>
+        </select><br><br>
+        <label for="level">Education Level: </label>
+        <select name="level" id="level">
+            <option value="Primary">GCSE</option>
+            <option value="Primary">A-level</option>
+            <option value="Primary">Univerisity degree</option>
+        </select><br><br>
+        National Insurance number: <input type="password" id="ni" name="ni"><br>
+        <p>Thank you for filling in this form</p>
+        <input type="submit" id="submit" name="submit"><br>
+    </form>
+</html>
